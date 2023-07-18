@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-/* ESTILOS GENERALES */
 * {
     font-family: 'Roboto', sans-serif;
     padding: 0;
@@ -10,6 +9,7 @@
 
 body {
     background-color: rgb(240, 248, 255);
+    min-height: 100vh;
 }
 
 .body-style {
@@ -35,9 +35,9 @@ h1 {
 }
 
 p {
-    color: rgba(75, 75, 75, 0.623);
+    color: rgba(75, 75, 75, 0.867);
     font-weight: 500;
-    font-size: 1.8em;
+    font-size: 1.5em;
     line-height: 1.2;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -52,7 +52,6 @@ header img {
     padding: 0%;
 }
 
-/* TEXTOS */
 .title-ayuda {
     font-size: 2.5em;
     margin-top: 10px;
@@ -65,6 +64,9 @@ header img {
     border: solid 3px;
     border-color: black;
     padding: 5px;
+}
+.text-nosotros{
+    margin-top: 15%;
 }
 
 .text-talle-h {
@@ -123,9 +125,7 @@ header img {
 .contacto .text3 {
     grid-area: text3;
 }
-/* END TEXTOS */
 
-/* NAV */
 .botonera {
     background-color: black;
 }
@@ -138,19 +138,28 @@ header img {
     color: white;
     font-weight: 600;
 }
-.botonera > ul > li:hover{
+
+.botonera ul{
+    margin-right: 20px;
+    padding: 0%;
+}
+
+.botonera>ul>li:hover {
     background-color: rgb(141, 141, 141);
 }
-.dropdown-toggle{
+
+.dropdown-toggle {
     color: white;
     display: block;
 }
-.dropdown-toggle:hover{
-    background-color:rgb(141, 141, 141) ;
+
+.dropdown-toggle:hover {
+    background-color: rgb(141, 141, 141);
     border-radius: 0%;
 
 }
-.dropdown-menu{
+
+.dropdown-menu {
     margin-top: 0%;
     display: none;
     list-style: none;
@@ -158,22 +167,20 @@ header img {
     border-radius: 0%;
     text-align: center;
 }
-.dropdown-toggle:hover .dropdown-menu{
+
+.dropdown-toggle:hover .dropdown-menu {
     display: block;
     background-color: rgb(141, 141, 141);
     border: none;
 }
 
 .nav-link:hover {
-    background-color: rgb(141, 141, 141); 
+    background-color: rgb(141, 141, 141);
 }
-
-
-
-
-/****** END NAV ******/
-
-/****** HEADER ******/
+.button-nav{
+    padding: 0%;
+    margin-right: 0%;
+}
 header {
     width: 100%;
     margin: 0;
@@ -216,9 +223,6 @@ header div button {
     border-color: white;
 }
 
-/****** END HEADER ******/
-
-/****** FOOTER ******/
 footer {
     background-color: black;
     padding: 6px 30px;
@@ -272,11 +276,6 @@ footer section p {
     margin-bottom: 5px;
 }
 
-/****** END FOOTER ******/
-
-
-
-/*  PRODUCTOS BS */
 .catalogo-text1 {
     color: black;
     font-weight: 600;
@@ -295,9 +294,7 @@ footer section p {
 .img-footer {
     margin-left: 10%;
 }
-/* END PRODUCTOS BS */
 
-/****** AYUDA ******/
 .article-ayuda {
     margin-top: 50px;
 }
@@ -311,9 +308,6 @@ footer section p {
     margin-top: 1%;
 }
 
-/****** END AYUDA ******/
-
-/****** NOSOTROS ******/
 .container-nosotros {
     display: flex;
     flex-wrap: wrap;
@@ -343,9 +337,6 @@ img {
     height: auto;
 }
 
-/****** END NOSOTROS ******/
-
-/****** CONTACTOS ******/
 .contacto {
     width: 95%;
     display: grid;
@@ -401,21 +392,46 @@ div figure button {
     margin-top: 10%;
     margin-left: 0%;
 }
-/****** END CONTACTOS ******/
 
-/* RESPONSIVE */
-
-/* FOOTER */
 @media (width < 768px) {
-    /* NAV */
-    .dropdown-toggle{
+    nav {
+        position: absolute;
+        z-index: 1;
+        flex-wrap: wrap;
+    }
+    .dropdown-toggle {
         display: flex;
+        border: none;
     }
-    .dropdown-toggle{
-        padding: 0%;
+
+    .dropdown-toggle {
+        justify-content: center;
     }
-    /* END NAV */
-    /* footer */
+
+    .dropdown-toggle:hover {
+        background-color: initial;
+        color: rgb(141, 141, 141);
+    }
+
+    .dropdown-menu {
+        background-color: initial;
+        margin-left: 35px;
+    }
+
+    .dropdown-item:hover {
+        background-color: initial;
+        color: rgb(141, 141, 141);
+    }
+
+    .nav-link:hover {
+        background-color: initial;
+        color: rgb(141, 141, 141);
+    }
+
+    .botonera li a {
+        text-align: center;
+    }
+
     footer {
         flex-direction: column;
     }
@@ -424,7 +440,6 @@ div figure button {
         margin-right: 0px;
     }
 
-    /* index */
     header {
         display: flex;
         flex-direction: column;
@@ -455,7 +470,6 @@ div figure button {
         margin-left: 45%;
     }
 
-    /* nosotros */
     .container {
         flex-direction: column;
     }
@@ -466,7 +480,6 @@ div figure button {
         flex-basis: 100%;
     }
 
-    /* contacto */
     .contacto {
         display: grid;
         grid-template-rows: 33.33% 33.33% 33.33%;
@@ -499,9 +512,9 @@ div figure button {
         text-align: center;
         margin-top: -10%;
     }
-
 }
-@media (width < 1085px){
+
+@media (width < 1085px) {
     .img-talle1 {
         width: 400px;
         height: 180px;

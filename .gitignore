@@ -1,6 +1,6 @@
 *.vscode
 *.map
 *.log
-node_module/
+node_modules/
 *.json
 .vscode/git 
