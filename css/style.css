@@ -148,9 +148,16 @@ header img {
     background-color: rgb(141, 141, 141);
 }
 
+.carrito{
+    margin-top: 13px;
+    padding: 0%;
+    padding-right: 10px;
+}
+
 .dropdown-toggle {
     color: white;
     display: block;
+    margin-top: 1px;
 }
 
 .dropdown-toggle:hover {
@@ -177,9 +184,8 @@ header img {
 .nav-link:hover {
     background-color: rgb(141, 141, 141);
 }
-.button-nav{
-    padding: 0%;
-    margin-right: 0%;
+.carrito{
+    
 }
 header {
     width: 100%;
@@ -319,11 +325,12 @@ footer section p {
 .right-column,
 .center-column {
     flex-basis: 33.33%;
-    padding: 10px;
 }
 
 .center-column {
     text-align: center;
+    font-size: 0.6em;
+    padding: 10px;
 }
 
 .left-column,
@@ -394,10 +401,8 @@ div figure button {
 }
 
 @media (width < 768px) {
-    nav {
-        position: absolute;
-        z-index: 1;
-        flex-wrap: wrap;
+    .botonera img{
+        padding: 0%;
     }
     .dropdown-toggle {
         display: flex;
@@ -474,12 +479,6 @@ div figure button {
         flex-direction: column;
     }
 
-    .left-column,
-    .right-column,
-    .center-column {
-        flex-basis: 100%;
-    }
-
     .contacto {
         display: grid;
         grid-template-rows: 33.33% 33.33% 33.33%;
@@ -514,16 +513,56 @@ div figure button {
     }
 }
 
-@media (width < 1085px) {
+@media (width < 1200px) {
     .img-talle1 {
         width: 400px;
+        margin-left: 20%;
         height: 180px;
-        margin-left: 11%;
     }
 
     .img-talle2 {
         width: 400px;
-        margin-left: 11%;
+        margin-left: 20%;
         height: 180px;
+    }
+}
+@media (width < 500px) {
+    .img-talle1 {
+        width: 340px;
+        height: 150px;
+        margin-left: 10%;
+    }
+
+    .img-talle2 {
+        width: 340px;
+        margin-left: 10%;
+        height: 150px;
+    }
+}
+@media (width < 380px) {
+    .img-talle1 {
+        width: 340px;
+        height: 150px;
+        margin-left: 2%;
+    }
+
+    .img-talle2 {
+        width: 340px;
+        margin-left: 2%;
+        height: 150px;
+    }
+}
+
+@media (width < 1100px){
+    .left-column,
+    .right-column,
+    .center-column {
+        flex-basis: 100%;
+    }
+    .left-column, .right-column{
+        width: 50%;
+    }
+    .text-nosotros{
+        font-size: 1em;
     }
 }
