@@ -1,3 +1,4 @@
+/* estilos generales */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 * {
@@ -16,7 +17,7 @@ body {
     margin: 0px;
     padding: 0px;
     min-height: 100vh;
-} */
+} 
 
 h1 {
     font-size: 2.5em;
@@ -51,7 +52,7 @@ header img {
     margin: 0%;
     padding: 0%;
 }
-
+/* textos e imagenes */
 .title-ayuda {
     font-size: 2.5em;
     margin-top: 10px;
@@ -279,7 +280,7 @@ footer ul li a {
     margin-bottom: 5px;
 }
 
-/* productos */
+/* page productos */
  .catalogo-text1 {
     color: black;
     font-weight: 600;
@@ -311,7 +312,7 @@ footer ul li a {
     margin-left: 18%;
     margin-top: 1%;
 }
-/* nosotros */
+/* page nosotros */
  .container-nosotros {
     display: flex;
     flex-wrap: wrap;
@@ -341,7 +342,7 @@ img {
     max-width: 100%;
     height: auto;
 } 
-
+/* page ccontacto */
 .contacto {
     width: 95%;
     display: grid;
@@ -401,7 +402,7 @@ textarea {
     margin-top: 10%;
     margin-left: 0%;
 } 
-
+/* responsive */
 @media (width < 768px) {
     .botonera img{
         padding: 0%;

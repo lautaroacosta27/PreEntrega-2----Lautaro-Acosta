@@ -32,7 +32,7 @@ h1 {
 p {
     color: $fontColorp;
     font-weight: $fontWeight1;
-    font-size: $fontSize5;
+    font-size: $fontSize2;
     line-height: $lineHeight1;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -106,6 +106,7 @@ header {
 }
 .text-nosotros{
     margin-top: 15%;
+    font-size: $fontSize5;
 }
 
 .text-talle-h {
@@ -131,6 +132,7 @@ header {
 
 .article-ayuda {
     margin-top: 50px;
+
 }
 
 .img-talle1 {

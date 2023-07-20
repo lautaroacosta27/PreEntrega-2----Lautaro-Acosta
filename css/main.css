@@ -36,7 +36,7 @@ h1 {
 p {
   color: rgba(75, 75, 75, 0.867);
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 1em;
   line-height: 1.2;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
@@ -103,6 +103,7 @@ header div .button-woman {
 
 .text-nosotros {
   margin-top: 15%;
+  font-size: 1.5em;
 }
 
 .text-talle-h {
@@ -333,12 +334,12 @@ footer section p {
 
 .left-column img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .right-column img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 @media (width < 768px) {
