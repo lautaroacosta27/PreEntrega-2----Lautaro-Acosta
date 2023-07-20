@@ -1,0 +1,31 @@
+.container-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0%;
+
+}
+.left-column,
+.right-column,
+.center-column {
+    flex-basis: 33.33%;
+}
+.center-column {
+    text-align: center;
+    font-size: $fontSize1;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.left-column{
+    img {
+        max-width: 100%;
+        height: auto;
+        }
+}
+.right-column {
+    img {
+        max-width: 100%;
+        height: auto;
+        }       
+}

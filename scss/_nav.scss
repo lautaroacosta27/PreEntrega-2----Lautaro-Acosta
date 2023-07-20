@@ -1,0 +1,54 @@
+.botonera{
+    background-color: $mainColor;
+    ul{
+        margin-right: 20px;
+        padding: 0%;
+
+        li{
+            &:hover{
+                background-color: $bgColorhover;
+            }
+            a{
+                color: $fontsColor;
+                font-weight: $fontWeight2;
+            }
+        }
+
+    }
+    
+    img{
+        width: 150px;
+    }
+
+}
+.dropdown-toggle{
+    color: $fontsColor;
+    display: block;
+    margin-top: 1px;
+    
+    &:hover{
+        background-color: $bgColorhover;
+        border-radius: 0%;
+
+        .dropdown-menu {
+            display: block;
+            background-color:$bgColorhover;
+            border: none; 
+          }
+    }
+}
+.dropdown-menu{
+    margin-top: 0%;
+    display: none;
+    list-style: none;
+    background-color: $bgColorhover;
+    border-radius: 0%;
+    text-align: center;
+}
+
+.carrito{
+    margin-top: 13px;
+    padding: 0%;
+    padding-right: 10px;
+    color:$bgColor;
+}

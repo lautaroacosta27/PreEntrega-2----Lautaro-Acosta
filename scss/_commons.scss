@@ -1,0 +1,147 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:$bgColor ;
+    min-height: 100vh;
+}
+.body-style {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+} 
+h1 {
+    font-size: $fontSize7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: $fontWeight3;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: $fontsColor;
+    border: solid 3px;
+    background-color: $mainColor;
+    padding: 20px;
+    grid-area: h1text;
+}
+
+p {
+    color: $fontColorp;
+    font-weight: $fontWeight1;
+    font-size: $fontSize5;
+    line-height: $lineHeight1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-area: ptext;
+}
+
+
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    img {
+        width: 50%;
+        margin: 0%;
+        padding: 0%;
+    }
+    .img-header {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        grid-area: img-header;
+        position: relative;
+    }
+
+    div{
+        button{
+            font-size: 1.4em;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            border: none;
+            padding: 2px;
+        }
+        .button-men {
+            position: absolute;
+            margin-top: 30%;
+            margin-left: 23%;
+            text-align: center;
+            border: solid 3px;
+            border-color: white; 
+        }
+        
+        .button-woman {
+            position: absolute;
+            margin-top: 30%;
+            margin-left: 74%;
+            text-align: center;
+            border: solid 3px;
+            border-color: white;
+        }
+    }
+
+}
+
+
+.title-ayuda {
+    font-size: 2.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: 900;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 3px;
+    border-color: black;
+    padding: 5px;
+}
+.text-nosotros{
+    margin-top: 15%;
+}
+
+.text-talle-h {
+    font-size: 1.4em;
+    font-weight: 900;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 3px;
+    border-color: black;
+    padding: 5px;
+}
+
+.text-talle-m {
+    font-size: 1.4em;
+    font-weight: 900;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 3px;
+    border-color: black;
+    padding: 5px;
+}
+
+
+.article-ayuda {
+    margin-top: 50px;
+}
+
+.img-talle1 {
+    margin-left: 18%;
+}
+
+.img-talle2 {
+    margin-left: 18%;
+    margin-top: 1%;
+}
+
+.img-footer {
+    margin-left: 10%;
+}
