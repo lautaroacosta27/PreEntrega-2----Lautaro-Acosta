@@ -40,9 +40,9 @@ footer{
     section{
         p{
             text-decoration: none;
-            font-size: 1em;
+            font-size:$fontSize2;
             color: $bgColor;
-            font-weight: 500;
+            font-weight: $fontWeight1;
         }
     }
 }

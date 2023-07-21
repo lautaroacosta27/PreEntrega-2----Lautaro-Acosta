@@ -24,7 +24,7 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: $fontsColor;
     border: solid 3px;
-    background-color: $mainColor;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
     padding: 20px;
     grid-area: h1text;
 }
@@ -63,9 +63,9 @@ header {
 
     div{
         button{
-            font-size: 1.4em;
-            background-color: rgb(0, 0, 0);
-            color: rgb(255, 255, 255);
+            font-size: $fontSize4;
+            background-image: linear-gradient(to right, #434343 0%, black 100%);
+            color: $whiteColor;
             border: none;
             padding: 2px;
         }
@@ -74,8 +74,13 @@ header {
             margin-top: 30%;
             margin-left: 23%;
             text-align: center;
-            border: solid 3px;
-            border-color: white; 
+            border: solid 1px;
+            border-color: $fontsColor; 
+            &:hover{
+                transform: scaleX(1.4);
+                transform: scaleY(1.2);
+                transition: all 2s;
+            }
         }
         
         .button-woman {
@@ -83,8 +88,13 @@ header {
             margin-top: 30%;
             margin-left: 74%;
             text-align: center;
-            border: solid 3px;
-            border-color: white;
+            border: solid 1px;
+            border-color: $fontsColor;
+            &:hover{
+                transform: scaleX(1.4);
+                transform: scaleY(1.2);
+                transition: all 2s;
+            }
         }
     }
 
@@ -92,16 +102,16 @@ header {
 
 
 .title-ayuda {
-    font-size: 2.5em;
+    font-size: $fontSize7;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 15%;
     margin-right: 15%;
-    font-weight: 900;
+    font-weight: $fontWeight3;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: solid 3px;
-    border-color: black;
+    border-color: $mainColor;
     padding: 5px;
 }
 .text-nosotros{
@@ -110,22 +120,22 @@ header {
 }
 
 .text-talle-h {
-    font-size: 1.4em;
-    font-weight: 900;
-    color: black;
+    font-size: $fontSize4;
+    font-weight: $fontWeight3;
+    color: $mainColor;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: solid 3px;
-    border-color: black;
+    border-color: $mainColor;
     padding: 5px;
 }
 
 .text-talle-m {
-    font-size: 1.4em;
-    font-weight: 900;
-    color: black;
+    font-size: $fontSize4;
+    font-weight: $fontWeight3;
+    color: $mainColor;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: solid 3px;
-    border-color: black;
+    border-color: $mainColor;
     padding: 5px;
 }
 

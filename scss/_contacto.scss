@@ -11,7 +11,7 @@
         width: 100%;
         padding: 5px;
         background-color: $bgColor;
-        border: 1px solid rgba(66, 66, 66, 0.482);
+        border: 1px solid $colorContacto;
         background: transparent;
         border-radius: 20px;
         }   
@@ -20,7 +20,7 @@
         figure{
             button{
                 border: 1px solid;
-                background-color: aliceblue;
+                background-color: $bgColor;
                 padding: 3.5px; 
             }
         }
@@ -41,28 +41,28 @@
         grid-area: contactanos;
         margin-top: 10%;
         margin-left: 0%;
-        color: black;
-        font-size: 1.8em;
+        color: $mainColor;
+        font-size: $fontSize6;
         text-decoration: underline;
-        font-weight: 900;
+        font-weight: $fontWeight3;
     }
 
     .text-numeros {
         grid-area: numeros;
         margin-top: 10%;
         margin-left: 0%;
-        color: black;
-        font-size: 1.5em;
-        font-weight: 600;
-        line-height: 1em;
+        color: $mainColor;
+        font-size: $fontSize5;
+        font-weight: $fontWeight2;
+        line-height: $fontSize2;
     } 
     
     .text-dejanos {
-        font-size: 1.4em;
+        font-size: $fontSize4;
         margin-top: 5%;
         margin-left: 0%;
-        color: black;
-        font-weight: 900;
+        color: $mainColor;
+        font-weight: $fontWeight3;
     }
     
      .text2 {

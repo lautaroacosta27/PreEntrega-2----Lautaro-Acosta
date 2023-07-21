@@ -28,7 +28,7 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   border: solid 3px;
-  background-color: rgb(7, 7, 7);
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
   padding: 20px;
   grid-area: h1text;
 }
@@ -65,7 +65,7 @@ header .img-header {
 }
 header div button {
   font-size: 1.4em;
-  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
   color: rgb(255, 255, 255);
   border: none;
   padding: 2px;
@@ -75,16 +75,26 @@ header div .button-men {
   margin-top: 30%;
   margin-left: 23%;
   text-align: center;
-  border: solid 3px;
+  border: solid 1px;
   border-color: white;
+}
+header div .button-men:hover {
+  transform: scaleX(1.4);
+  transform: scaleY(1.2);
+  transition: all 2s;
 }
 header div .button-woman {
   position: absolute;
   margin-top: 30%;
   margin-left: 74%;
   text-align: center;
-  border: solid 3px;
+  border: solid 1px;
   border-color: white;
+}
+header div .button-woman:hover {
+  transform: scaleX(1.4);
+  transform: scaleY(1.2);
+  transition: all 2s;
 }
 
 .title-ayuda {
@@ -97,7 +107,7 @@ header div .button-woman {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: solid 3px;
-  border-color: black;
+  border-color: rgb(7, 7, 7);
   padding: 5px;
 }
 
@@ -109,20 +119,20 @@ header div .button-woman {
 .text-talle-h {
   font-size: 1.4em;
   font-weight: 900;
-  color: black;
+  color: rgb(7, 7, 7);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: solid 3px;
-  border-color: black;
+  border-color: rgb(7, 7, 7);
   padding: 5px;
 }
 
 .text-talle-m {
   font-size: 1.4em;
   font-weight: 900;
-  color: black;
+  color: rgb(7, 7, 7);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: solid 3px;
-  border-color: black;
+  border-color: rgb(7, 7, 7);
   padding: 5px;
 }
 
@@ -251,7 +261,7 @@ footer section p {
 }
 .contacto div figure button {
   border: 1px solid;
-  background-color: aliceblue;
+  background-color: rgb(240, 248, 255);
   padding: 3.5px;
 }
 .contacto .formcontacto {
@@ -268,7 +278,7 @@ footer section p {
   grid-area: contactanos;
   margin-top: 10%;
   margin-left: 0%;
-  color: black;
+  color: rgb(7, 7, 7);
   font-size: 1.8em;
   text-decoration: underline;
   font-weight: 900;
@@ -277,7 +287,7 @@ footer section p {
   grid-area: numeros;
   margin-top: 10%;
   margin-left: 0%;
-  color: black;
+  color: rgb(7, 7, 7);
   font-size: 1.5em;
   font-weight: 600;
   line-height: 1em;
@@ -286,7 +296,7 @@ footer section p {
   font-size: 1.4em;
   margin-top: 5%;
   margin-left: 0%;
-  color: black;
+  color: rgb(7, 7, 7);
   font-weight: 900;
 }
 .contacto .text2 {
@@ -298,7 +308,7 @@ footer section p {
 }
 
 .catalogo-text1 {
-  color: black;
+  color: white;
   font-weight: 600;
   border: solid 1px;
   font-size: 1.3em;
@@ -307,9 +317,18 @@ footer section p {
 }
 
 .catalogo-text2 {
-  color: rgba(34, 33, 33, 0.842);
+  color: white;
   padding: 0%;
   margin: 2%;
+}
+
+.card {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+.card:hover {
+  transform: scaleX(1.06);
+  transform: scaleY(1.04);
+  transition: all 2s;
 }
 
 .container-nosotros {
