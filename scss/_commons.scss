@@ -13,6 +13,7 @@ body {
     padding: 0px;
     min-height: 100vh;
 } 
+
 h1 {
     font-size: $fontSize7;
     margin-top: 10px;
@@ -40,8 +41,11 @@ p {
     margin-bottom: 20px;
     grid-area: ptext;
 }
-
-
+.promocion{
+        border: solid 4px;
+        border-color: $whiteColor;
+        background-image: linear-gradient(109.6deg, rgb(247, 253, 166) 11.2%, rgb(128, 255, 221) 57.8%, rgb(255, 128, 249) 85.9%);
+}
 header {
     width: 100%;
     margin: 0;
@@ -100,6 +104,54 @@ header {
 
 }
 
+.error-404{
+    background-color: $errorColor;
+    margin: 1%;
+    width: 100%;
+        h1{
+            color: $errorColorh1;
+            border: none;
+            background-image: none;
+            font-size: $fontSize8;
+        }
+        img{
+            width: 20%;
+            margin-left: 40%;
+        }
+        h2{
+            width: 80%;
+            margin-left: 10%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: $colorContacto;
+            font-weight: $fontWeight3;
+            text-align: center;
+        }
+        h3{
+            width:70%;
+            margin-left: 16%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: $fontWeight3;
+            text-align: center;
+        }
+        div{
+            ul{
+                display: flex;
+                justify-content: center;
+                li{
+                    list-style: none;
+                    flex-direction: row;
+                    a{
+                        text-decoration: underline;
+                        padding: 5px;
+                    }
+                }
+            }
+            
+
+        }
+
+
+}
 
 .title-ayuda {
     font-size: $fontSize7;

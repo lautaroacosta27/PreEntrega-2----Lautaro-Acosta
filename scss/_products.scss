@@ -16,9 +16,24 @@
 
 .card{
     background-image: linear-gradient(to right, #434343 0%, black 100%);
-    &:hover{
-        transform: scaleX(1.06);
-        transform: scaleY(1.04);
-        transition: all 2s;
+}
+
+.paginacion{
+    margin: 20px 0;
+    ul{
+        list-style: none;
+        text-align: center;
+        li{
+            display: inline-block;
+            margin-right: 10px;
+            a{
+                display: block;
+                padding: 5px 10px;
+                color: $mainColor;
+                text-decoration: none;
+                color: $fontsColor;
+                background: linear-gradient(to right, #434343 0%, black 100%);
+            }
+        }
     }
 }

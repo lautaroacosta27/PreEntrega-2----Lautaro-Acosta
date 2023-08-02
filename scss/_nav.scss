@@ -10,7 +10,6 @@
             }
             a{
                 color: $fontsColor;
-                font-weight: $fontWeight2;
             }
         }
     }
@@ -22,7 +21,6 @@
     color: $fontsColor;
     display: block;
     margin-top: 1px;
-    
     &:hover{
         background-color: $bgColorhover;
         border-radius: 0%;
