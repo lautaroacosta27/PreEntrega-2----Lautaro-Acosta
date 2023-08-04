@@ -1,5 +1,4 @@
 # Rodeo - Indumentaria
-![foto de cabecera]("C:\Users\Windows11\Desktop\CODERHOUSE\Nueva carpeta\img\header\readmeimg.png")
 
 ~~~~~~~ PROYECTO FINAL ~~~~~~~~
 
@@ -33,11 +32,11 @@ GitHub Pages
 **Links:**
 -----------------------------------------
 
-[Deploydment de GitHub pages:](https://lautaroacosta27.github.io/PreEntrega-2----Lautaro-Acosta/)
+Deploydment de GitHub pages: https://lautaroacosta27.github.io/PreEntrega-2----Lautaro-Acosta/
 
-[Dominio en  Netlify:](https://rodeoar.netlify.app/)
+Dominio en  Netlify: https://rodeoar.netlify.app/
 
-[link del repositorio:](https://github.com/lautaroacosta27/PreEntrega-2----Lautaro-Acosta.git)
+link del repositorio: https://github.com/lautaroacosta27/PreEntrega-2----Lautaro-Acosta.git
 
 
 -Lautaro Acosta-
