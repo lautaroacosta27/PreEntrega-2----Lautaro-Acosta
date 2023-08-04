@@ -2,11 +2,11 @@
 
 ~~~~~~~ PROYECTO FINAL ~~~~~~~~
 
-# gitSobre mi proyecto
+Sobre mi proyecto
 
 Hola mi nombre es Lautaro Acosta y estoy cursando la carrera de Desarrollo Web Full Stack. En esta primera instancia disene una pagina web de indumentaria unisex, con estilo urbano y de actualidad. Se siguio un esquema de color minimalista, negro y blanco, ya que son colores que me gustan y nunca fallan.
 
-# Herramientes utilizadas
+Herramientes utilizadas
 
 Las herramientas de trabajo que se utilizaron fueron html, css, sass, animaciones y bootstrap, tambien se aplicaron tecnicas de SEO para una mejor experiancia de usuario.
 
