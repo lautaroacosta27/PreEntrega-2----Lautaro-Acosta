@@ -1,5 +1,7 @@
 # Rodeo - Indumentaria
 ![Imagen animada de programador](https://github.com/lautaroacosta27/PreEntrega-2----Lautaro-Acosta/blob/master/img/header/readmeimg.png)
+
+
                                                          ~~~~~~~ PROYECTO FINAL ~~~~~~~~
 
 Hola, mi nombre es Lautaro Acosta y estoy cursando la carrera de Desarrollo Web Full Stack. En esta primera instancia diseñe una pagina web de indumentaria unisex, con estilo urbano y de actualidad. Cuando empece a trabajar en esta pagina no pense que me iba a quedar asi, de hecho los wireframe con el resultado final es bastante distinto, y fue por que a medida que iba avanzando se me ocurrian otras formas de resolverlo. Haber llegado hasta aca para mi es un logro enorme, por que hace 2 meses no sabia ni lo que era un codigo, por eso agradezco por el aprendizaje. 
