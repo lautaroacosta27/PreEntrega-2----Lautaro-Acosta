@@ -10,15 +10,16 @@ En relacion al trabajo, en su diseño se siguio un esquema de color minimalista,
 Lenguajes:
 -----------------------------------------
 
-- HTML
-- CSS 
+![logo html](https://github.com/lautaroacosta27/PreEntrega-2----Lautaro-Acosta/assets/138705032/733ea2e9-ed3b-4641-9861-1708c718e703)
+![logo css](https://github.com/lautaroacosta27/PreEntrega-2----Lautaro-Acosta/assets/138705032/db9fa35a-d767-4270-a072-bd1b771d0941)
+
 
 Frameworks:
 -----------------------------------------
 
-- SASS 
-- Bootstrap 
-- Node_bs
+![image](https://github.com/lautaroacosta27/PreEntrega-2----Lautaro-Acosta/assets/138705032/eaf03e10-6ee4-48a8-ad93-b381b33b8919)
+![image](https://github.com/lautaroacosta27/PreEntrega-2----Lautaro-Acosta/assets/138705032/9a400944-45fd-4497-b8bb-322a63b298d7)
+![image](https://github.com/lautaroacosta27/PreEntrega-2----Lautaro-Acosta/assets/138705032/2da458e2-e0f2-4ab5-8819-2fdcfa542974)
 
 
 Sistema de control de versiones:
